@@ -1,8 +1,27 @@
 .promo {
-  padding: 140px 0;
-  background-color: rgba($color-white, .2);
+  text-align: center;
+  margin-top: 92px;
+  background-image: url('../images/richman.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.promo-fade {
+  padding: 200px 0 214px 0;
+  background-color: rgba($color-dark, .4);
 }
 
 .promo-inner {
   @include inner;
+}
+
+.promo-title {
+  margin-bottom: 130px;
+  color: $color-white;
+  font-family: $font-open;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 98px;
 }

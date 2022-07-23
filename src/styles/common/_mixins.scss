@@ -1,14 +1,5 @@
 @mixin inner($width: 1276px) {
-  width: $width;
+  max-width: $width;
   margin: 0 auto;
   border: 1px solid red;
-}
-
-@mixin section-title {
-  font-family: $font-open;
-  font-weight: 600;
-  font-size: 72px;
-  line-height: 98px;
-  color: $color-white;
-  text-align: center;
 }

@@ -1,28 +1,22 @@
-.menu {
+.menu-list {
   ul {
     display: flex;
     list-style: none;
   }
 
-  li {
-    margin-left: 30px;
-
-    &:first-child {
-      margin-left: 0;
-    }
-  }
-
-  a {
+  .menu-text {
     color: $color-white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
   }
 }
 
-.some-item {
-  &:first-child {
-    color: #000;
-  }
-
-  &.second-class {
-    color: #000;
-  }
+.menu-item {
+  margin-left: 60px;
+  padding: 33px 25px;
 }
