@@ -1,0 +1,31 @@
+.features {
+  text-align: center
+}
+
+.features-inner {
+  @include inner;
+}
+
+.features-title {
+  margin-top: 130px;
+  margin-bottom: 100px;
+  font-family: $font-open;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+}
+
+.features-visual {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.features-visual-wrap {
+  position: relative;
+}
+
+.features-picture {
+  margin-right: 20px;
+}
