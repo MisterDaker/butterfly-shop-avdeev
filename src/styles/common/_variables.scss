@@ -1,12 +1,19 @@
 // Fonts
 $font-open: 'Open Sans', sans-serif;
 
-
 // colors
 $color-dark: #333333;
 $color-red: #FF2D2D;
 $color-white: #fff;
+
 // indents
 $gap: 20px;
 $gap-half: 10px;
+
 // breakpoints
+$desktop: 1280px;
+$tablet: 768px;
+$mobile: 320px;
+
+$tablet-max: $desktop - 1px;
+$mobile-max: $tablet - 1px;

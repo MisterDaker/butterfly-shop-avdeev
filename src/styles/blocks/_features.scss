@@ -14,6 +14,13 @@
   font-weight: 400;
   font-size: 64px;
   line-height: 87px;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-size: 60px;
+    line-height: 82px;
+  }
 }
 
 .features-visual {
