@@ -19,4 +19,8 @@
 .menu-item {
   margin-left: 60px;
   padding: 33px 25px;
+
+  &.red-box {
+    background-color: $color-red;
+  }
 }
