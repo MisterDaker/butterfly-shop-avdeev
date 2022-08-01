@@ -18,14 +18,27 @@
 
 .features-visual {
   display: flex;
-  align-items: center;
   margin-bottom: 120px;
 }
 
 .features-visual-wrap {
   position: relative;
+  margin-right: 20px;
+}
+
+.features-img-desc {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: $color-white;
+  background-color: rgba($color-dark, .5);
 }
 
 .features-picture {
-  margin-right: 20px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
