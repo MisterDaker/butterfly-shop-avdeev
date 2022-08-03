@@ -20,6 +20,11 @@
   line-height: 57px;
   color: $color-white;
   text-decoration: none;
+
+  @media (max-width: $tablet-max) {
+    font-size: 36px;
+    line-height: 49px;
+  }
 }
 
 .footer-phone {

@@ -14,6 +14,12 @@
   line-height: 87px;
   text-align: center;
   margin-top: 130px;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 120px;
+    font-size: 60px;
+    line-height: 82px;
+  }
 }
 
 .order-form-text {
@@ -39,10 +45,18 @@
   position: relative;
   flex-basis: 33.33%;
   padding: 0 5px;
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 100%;
+  }
 }
 
 .form-field-half {
   flex-basis: 33.33%;
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+  }
 }
 
 .form-label {
@@ -83,4 +97,9 @@
   text-decoration: none;
   cursor: pointer;
   border: none;
+
+  @media (max-width: $tablet-max) {
+    width: 100%;
+    margin-top: 40px;
+  }
 }

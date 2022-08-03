@@ -15,8 +15,21 @@
   color: $color-white;
   text-decoration: none;
   cursor: pointer;
+
+  @media (max-width: $mobile-max) {
+    min-width: 278px;
+    min-height: 73px;
+    padding: 20px 14px;
+    font-size: 24px;
+    line-height: 33px;
+  }
 }
 
 .btn-features {
   margin-bottom: 130px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 120px;
+  }
+
 }
